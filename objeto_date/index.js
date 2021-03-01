@@ -13,7 +13,6 @@ console.log('Min', data3.getMinutes());
 console.log('Seg', data3.getSeconds());
 console.log('ms', data3.getMilliseconds());
 console.log('Dia Semana', data3.getDay()); // 0 - Domingo, 6 - Sábado
-console.log('Seg', data3.now());
 
 
 
@@ -25,7 +24,7 @@ function zeroAEsquerda (num) {
     return num >= 10 ? num : `0${num}`;
 }
 
-const formataData(data){
+function formataData (data) {
     const dia = zeroAEsquerda(data.getDate());
     const mes = zeroAEsquerda(data.getMonth());
     const ano = zeroAEsquerda(data.getFullYear());
@@ -33,5 +32,7 @@ const formataData(data){
     const min = zeroAEsquerda(data.getMinutes());
     const seg = zeroAEsquerda(data.getSeconds());
 
-    return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`;
-}
+    return console.log(`${dia}/${mes}/${ano} ${hora}:${min}:${seg}`);
+};
+
+formataData();
