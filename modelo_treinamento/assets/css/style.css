@@ -46,7 +46,7 @@ form button {
   border: none;
   background: var(--primary-color);
   color: #fff;
-  font-size: 18px;
+  font-size: 12px !important;
   font-weight: 700;
   height: 50px;
   cursor: pointer;
