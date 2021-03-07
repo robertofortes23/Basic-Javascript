@@ -25,7 +25,7 @@ const stop = false, age = 16;
 age > 18 ? location.assign("continue.html") : stop = true;
 
 //Você também pode fazer mais do que uma única operação em cada caso, separando-os por vírgula:
-let stop = false, age = 23;
+let stop = false, age = 22;
 age > 18 ? (
     alert("OK, voce pode ir."),
     location.assign("continue.html")
