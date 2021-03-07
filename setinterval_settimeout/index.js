@@ -16,4 +16,4 @@ setTimeout(function(){
 
 setTimeout(function(){
     console.log('Olá mundo!');
-}, 3000)
+}, 4000)
