@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE FATEPI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<script src="js/script.js"></script>
+<body>
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>REGISTRO</h1>
+
+            <label for="nome">Nome:</label>
+            <input type="nome" id="nome" placeholder="Nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" required>
+    
+            <label for="pw">Senha:</label>
+            <input type="password"
+                   id= "pw"
+                   placeholder="Senha" required>
+    
+            <ul class="helper-text">
+                <li class="length">Deve conter pelo menos 8 caracteres.</li>
+                <li class="lowercase">Deve conter uma letra minúscula.</li>
+                <li class="uppercase">Deve conter uma letra maiúscula.</li>
+                <li class="special">Deve conter um número ou caractere especial.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+    
+        </form>
+    </div>
+    
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>ENTRAR</h1>
+    
+            <label for="userName">Email:</label>
+            <input type="email" id="userName" placeholder="Email" required>
+    
+            <label for="userPw">Senha:</label>
+            <input type="password" id= "userPw" placeholder="Senha" required>
+    
+            <div id="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                       style="display: inline-block;">
+                <label>Lembrar</label>
+            </div>
+    
+            <input id= "login_btn" type="submit" value="Login" onclick="check()">
+        </form>
+    </div>
+</body>
+</html>
